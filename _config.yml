@@ -6,10 +6,15 @@ baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
+collections:
+- kooks7_collection
+
+collections_dir: kooks7_collections
+
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 7
 
 navigation:
   - title: Home

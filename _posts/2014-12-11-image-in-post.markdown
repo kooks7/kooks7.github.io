@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Image in Post"
+categories : Life!
 date:   2014-12-11
 ---
 

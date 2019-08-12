@@ -10,6 +10,10 @@
                  {% endfor %}
                  <li> <a href="https://github.com/kooks7" target="_blank">GitHub</a></li>
                  <li><a href="https://www.instagram.com/kooks.7/">Photo</a></li>
+                 
+                 
+                 <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+                    href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
              </ul>
          </nav>
      </div>

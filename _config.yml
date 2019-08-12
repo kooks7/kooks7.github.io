@@ -1,7 +1,7 @@
-title: Minjae Blog-Everthing is here
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Kooks7
+description: -Everthing is here
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://kooks7.github.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -20,7 +20,7 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
+  github: kook7
   twitter: brianmaierjr
   facebook: brianmaierjr
   email: brimaidesigns@gmail.com

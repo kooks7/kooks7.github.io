@@ -1,17 +1,31 @@
 ---
 layout: post
-title:  "Test Post"
-date:   2014-12-10
+title:  "New"
+date: 2019-08-12
+
 ---
 
-<p class="intro"><span class="dropcap">L</span>orem ipsum thor smash liege-bastogne-liege landbouwkrediet ombregt krabbe, rouleur derby is for lovers bonk giro gilbert bidon. Driedaagse de panne-koksijde monte paschi eroica, nevele gimondi berendries off the back cassette tenbosse.</p>
+```html
+<h1>
+    블로그 시작
+</h1>
 
-Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omnium commissaire ronde van vlaanderen horizontally stiff but vertically compliant muur, valkenberg jens paris-roubaix. Meyrueis belleville cavendish bianchi, rochefort echelon in soigneur ten dam omloop het volk, bettini aerts! Tour de mont aigoual cat among the pigeons rekelberg omloop het nieuwsblad paris-nice, dwars door vlaanderen coppi the colnago knockteberg anduze.
+<h2>중독</h2>
+<ol>
+<li>코딩중독</li>
+<li>독서중독</li>
+<li>운동중독</li>
+<li>영어중독</li>
+    
+</ol>
 
-Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
 
-Campagnolo the hors delai de wolf as the toto turns venga venga venga, sanchez nys. Pantani hell of the north oude kwaremont nitto koppenberg, tiegemberg van steenbergen lombardie flamme rouge lemond e3 prijs vlaanderen.
+```
 
-Planckaert berg ter stene freire gorgeous george in rouleur derby, vaughters fabianese omloop het volk rouleur play rouleur derby. Bottechia petacchi, milan-san remo van summeren off the back cutters the cassette.
+**코드공부**: 만들고 싶은 것을 간편화 해주는 도구
+**기술,공학**: 세상에 가치 있는 것을 만들기 위해 배우고 창조해야 하는것.
+**인문,문학**: 나아가야 할 길과 나의 위치를 알려주는 것
+**영어,글쓰기**: 가치있는것을 표현하는 방법
+**운동,건강**: 나를 지탱해주는 바탕
 
-Nyvelocity pyrenees vande velde merckx. La fleche wallonne fixie pau, with muur hors categorie boonen aerts operacion puerto, topsport vlaanderen pereiro randonneur. This greek text is produced by rouleur derby, almost certainly the best fantasy cycling game in the world snob trousselier col du galibier, flanders venga venga venga suitcase of courage cutters kolobnev molenberg.
+**시간** : 돌아올 수 없는 것, 지나가면 잡을 수 없는 것

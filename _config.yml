@@ -12,8 +12,6 @@ plugins: [jekyll-paginate]
 paginate: 10
 
 navigation:
-  - title: Post
-    url: /post
   - title: About
     url: /about
   - title: Contact

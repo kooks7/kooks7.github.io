@@ -11,9 +11,6 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 10
 
-collections:
-- kooks7_collection
-
 navigation:
   - title: Post
     url: /post

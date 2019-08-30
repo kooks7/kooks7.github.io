@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DailyStudy"
+title:  "DailyStudy(git)"
 categories : DailyStudy!
 date:   2019-08-29
 

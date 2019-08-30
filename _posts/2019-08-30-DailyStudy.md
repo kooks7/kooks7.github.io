@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DailyStudy"
+title:  "DailyStudy(특강)"
 categories : DailyStudy!
 date:   2019-08-30
 
@@ -44,7 +44,7 @@ date:   2019-08-30
 
 
 
-
+972996497
 
 
 

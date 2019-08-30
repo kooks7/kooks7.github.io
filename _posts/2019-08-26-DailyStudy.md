@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DailyStudy"
+title:  "DailyStudy(JavaScript)"
 categories : DailyStudy!
 date:   2019-08-26
 

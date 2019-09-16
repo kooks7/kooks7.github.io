@@ -51,6 +51,24 @@ date:   2019-09-16
 
 
 
+## 트랜잭션(Transaction)
+
+**Build Proposal** - user가 원장에 R/W하는 트랜잭션을 요청하고 dapp이 endorsing peer에게 전달해주는 단계
+
+**Endorsement** - Endorsing peer들이 트랜잭션을 전달받고 다음 항목들을 검사한다. 
+
+1. 트랜잭션 형식이 적절한지 여부
+2. 이전에 동일한 트랜잭션 제출 여부 (replay-attack 방지) 
+3.  MSP를 통한 서명 유효 여부
+4. 요청에 대한 사용자의 권한 여부. 이상이 없으면 체인코드를 시뮬레이션한 후 그 결과값(read/write set)을 endorsing peer 자신의 서명과 함께 반환
+
+**Ordering** - 위에서 반환된 결과값과 서명은 다시 orderer에게 전송되고 orderer는 이 트랜잭션들을 정렬한 후 블록을 생성하고 committing peer들에게 전송한다.
+
+**Validate & Commit** - 블록을 전달받은 peer들은 블록에 포함된 트랜잭션들이 보증 정책을 준수하는지 여부와 read/write set 값이 적절한지 확인한다. 확인이 끝나면 트랜잭션 마다 valid/invalid 태그를 표시하여 자신의 원장에 저장하고, 유효한 트랜잭션의 write set을 world state에 포함시킨다.
+
+
+  
+
 ## 실습 환경
 
 - Docker 18.06.1-ce

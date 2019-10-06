@@ -2,7 +2,7 @@
 layout: post
 title:  "DailyStudy"
 categories : DailyStudy!
-date:   2019-08-1
+date:   2019-08-22
 
 
 

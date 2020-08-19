@@ -4,9 +4,15 @@ layout: default
 permalink: "/categories.html"
 ---
 
-
+<h1>카테고리</h1>
 {% for category in site.categories %}
-<h4 class="mt-5 mb-neg-30" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize badge badge-primary text-small">{{ category[0] }}</span></h4>
+<div class="blog-grid-container">
+<a class="mt-4 mb-neg-30" href=#{{ category[0] }}><span class="btn btn-dark text-small">{{ category[0] }}</span></a>
+</div>
+{% endfor %}
+<hr>
+{% for category in site.categories %}
+<h4 class="mt-5 mb-neg-30" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize badge badge-primary text-small" name={{ category[0] }}>{{ category[0] }}</span></h4>
 <div class="blog-grid-container">
 {% assign pages_list = category[1] %}
 {% for post in pages_list %}

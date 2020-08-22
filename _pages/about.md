@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: kooks7 / 매일매일 발전하기 위해 노력합니다. 
 permalink: /about
 comments: false

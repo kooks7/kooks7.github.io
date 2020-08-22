@@ -3,7 +3,7 @@ name: "kooks7"
 title: "kooks7"
 description: "kooks7의 기술블로그!"
 logo: "assets/images/logo.png"
-favicon: "assets/images/logo.png"
+favicon: "assets/images/favicon.ico"
 baseurl:
 google_analytics: "UA-xxxxxxxx-1"
 disqus: "demowebsite"

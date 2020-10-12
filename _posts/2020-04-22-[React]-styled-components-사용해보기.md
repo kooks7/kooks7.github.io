@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "[React] styled components 사용해보기"
+title:  "[javascript] styled components 사용해보기"
 categories : Coding!
 tag :
-- React
+- javascript
 - CSS
-- React-Native
+- javascript-Native
 date: 2020-04-22
 
 
@@ -13,7 +13,7 @@ date: 2020-04-22
 
 리엑트에서 스타일을 정의하기는 매우 복잡했습니다. class를 만들어야하고 컴포넌트간 상속에 대해 많은 시간을 쏟아야 했습니다. 
 
-하지만 **`styled components`를 사용하면 모든게 간편해집니다.** 심지어 React-Native에서도 CSS를 사용할 수 있습니다.
+하지만 **`styled components`를 사용하면 모든게 간편해집니다.** 심지어 javascript-Native에서도 CSS를 사용할 수 있습니다.
 
 간단한 사용법을 알아보도록 하겠습니다.
 
@@ -31,7 +31,7 @@ Docs : https://styled-components.com/docs/
 
 2.  사용하고자 하는데 import 합니다
 
-   ```react
+   ```javascript
    import styled from 'styled-components';
    ```
 
@@ -39,7 +39,7 @@ Docs : https://styled-components.com/docs/
 
 1. 스타일 정의하기
 
-   ```react
+   ```javascript
    const 변수명 = styled.<html element>`
    ... CSS 넣기
    `
@@ -49,7 +49,7 @@ Docs : https://styled-components.com/docs/
 
    - example
 
-     ```react
+     ```javascript
      const Container = styled.div`
        height: 100vh;
        width: 100%;
@@ -59,7 +59,7 @@ Docs : https://styled-components.com/docs/
 
 2. 스타일 사용
 
-   ```react
+   ```javascript
    class App extends Component {
      render() {
        return (
@@ -80,13 +80,13 @@ Docs : https://styled-components.com/docs/
 
    - 스타일 정의하면서 props 넣어주기
 
-     ```react
+     ```javascript
      background-color: ${(props) => (props.danger ? 'red' : 'green')};
      ```
 
    - 태그 지정하면서 props 보내주기
 
-     ```react
+     ```javascript
      <Button danger></Button>
      ```
 
@@ -94,8 +94,8 @@ Docs : https://styled-components.com/docs/
 
 전체 코드
 
-```react
-import React, { Component } from 'react';
+```javascript
+import javascript, { Component } from 'javascript';
 import styled from 'styled-components';
 
 class App extends Component {
@@ -135,15 +135,15 @@ export default App;
 
 
 
-#### React-Native에 사용하기
+#### javascript-Native에 사용하기
 
 똑같이 import 하고 사용하면 됩니다.!
 
-- ReactNative
+- javascriptNative
 
-  ```react
-  import React from "react";
-  import {StyleSheet, Text, View} from "react-native";
+  ```javascript
+  import javascript from "javascript";
+  import {StyleSheet, Text, View} from "javascript-native";
   import styled from "styled-components";
   
   const Container = styled.View`
@@ -157,7 +157,7 @@ export default App;
   	font-size: 32px
   `
   
-  export default class App extends React.Component {
+  export default class App extends javascript.Component {
       render() {
   	return (
       	<Container>

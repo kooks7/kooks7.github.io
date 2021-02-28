@@ -2,7 +2,7 @@
 layout: post
 title:  "[Book Review] Deep Work"
 author: kooks7
-categories : [Book]
+categories : Book
 rating: 4.5
 image: assets/images/jeroen-den-otter-1SA__aN_I2U-unsplash.jpg
 
